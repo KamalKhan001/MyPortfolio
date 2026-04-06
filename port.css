@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body{
+     overflow: hidden;
+}
+
+/* .form-control{
+    padding: 12px 0px 12px 0px;
+    width: 50%;
+} */
+
+.login{
+    margin-left: 26%;
+    border-radius: 10px;
+    background-color: #dacbb0;
+}
+
+
+body{
+    background-image: url("download.webp");
+    background-repeat: no-repeat;
+      background-size: 1600px 910px;
+    background-position: center;
+}
+
+ .passInput input{
+    padding: 10px 0px;
+}
+
+.UserInput input{
+    padding: 10px 0px;
+}
+
+
+.titleHeading h2{
+       font-weight: bold;
+       background: linear-gradient(to right, rgb(80, 21, 21), rgb(0, 255, 213));
+        -webkit-background-clip: text;   /* background ko text ke andar clip karo */
+  -webkit-text-fill-color: transparent; /* text ko transparent karo taake gradient dikhai de */
+
+}   
+
+
+.submitBtn button{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    background: linear-gradient(to left, rgb(255, 0, 238), rgb(0, 255, 247));
+}
+
+

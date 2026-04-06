@@ -1,0 +1,61 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+a{
+    margin-left: 270px;
+    font-size: 1.2em;
+    color: rgb(78, 58, 58);
+    
+}
+
+
+.contactMe{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+
+
+
+.something{
+    display: flex;
+    align-items: center;
+}
+
+.something h1{
+    font-family: normal;
+    font-weight: bold;
+    margin-left: 50px;
+    font-size: 4.9rem;
+    animation: fadeLoop 2s infinite;
+     background: linear-gradient(90deg, #310e37, #6cc7ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes fadeLoop {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+i{
+    font-size: 25px;
+    
+}
+
+p{
+    font-size: 1.1em;
+   
+}
+
+
+
+ 

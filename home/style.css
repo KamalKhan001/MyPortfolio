@@ -1,0 +1,55 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+a{
+    margin-left: 270px;
+    font-size: 1.2em;
+    color: rgb(78, 58, 58);
+    
+}
+
+
+.navbar{
+    padding: 20px 0px 20px 0px;
+}
+
+.main-div{
+    margin-top: 5%;
+    
+}
+
+
+
+
+.row h1{
+    font-size: 109px;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #24a8e0 0%, #35453a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hireBtn .btnMain{
+  background: linear-gradient(to right, #9824e0 0%, #43cdff 100%);
+  color: white;
+  font-weight: bold;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+
+
+
+

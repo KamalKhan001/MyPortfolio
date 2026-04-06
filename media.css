@@ -1,0 +1,122 @@
+/* Media queries for home page  */
+
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1170px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    #heading1 {
+        font-size: 3.5em;
+    }
+
+    h5 {
+        font-size: 1.2em;
+    }
+
+   
+    #info-div {
+        margin-top: 4%;
+        border-radius: 10px;
+        box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.5);
+        padding: 40px 0px 40px 0px;
+
+    }
+
+    #pic-div {
+        margin-top: 5%;
+
+    }
+}
+
+
+
+
+
+
+
+
+/* About section media queries  */
+
+@media (max-width : 992px) {
+    .text-div{
+        margin-top: 5%;
+        border-radius: 10px;
+        box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    }
+       
+    .myPic{
+
+        margin-top: 5%;
+        border-radius: 10px;
+        box-shadow:  0 4px 8px 0 rgba(200, 191, 191, 0.8);
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+
+
+/* Contact me section media queries */
+
+
+@media (max-width : 992px){
+    .contactText{
+        margin-top: 10%;
+    }
+
+    
+}
+
+@media (max-width : 620px){
+    .contactText p{
+        font-size: 15px;
+        
+    }
+    
+    .contactText{
+        border-radius: 10px;
+        box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    }
+    .something h1{
+        font-size: 3.7rem;
+    }
+
+    i{
+    font-size: 16px;
+    }
+
+    .iconText{
+        font-size: 0.6em;
+    }
+}
+
+
+/* Media queries for login page */
+
+@media (max-width : 992px) {
+    .login{
+        margin-left: 0%;
+        width: 100%;
+        height: auto;
+        
+    }
+
+   
+
+    body{
+        background-image: none;
+       
+    }
+}
+
