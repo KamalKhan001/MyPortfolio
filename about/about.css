@@ -24,8 +24,11 @@ a{
 
 
 
-h1{
+.text-div h1{
     font-size: 3em;
+    background: linear-gradient(to bottom, #6f2662 0%, #67d4ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 p{
