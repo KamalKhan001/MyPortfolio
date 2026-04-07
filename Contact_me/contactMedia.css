@@ -1,0 +1,30 @@
+@media (max-width : 992px){
+    .contactText{
+        margin-top: 10%;
+    }
+
+    
+}
+
+@media (max-width : 620px){
+    .contactText p{
+        font-size: 15px;
+        
+    }
+    
+    .contactText{
+        border-radius: 10px;
+        box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    }
+    .something h1{
+        font-size: 3.7rem;
+    }
+
+    i{
+    font-size: 16px;
+    }
+
+    .iconText{
+        font-size: 0.6em;
+    }
+}
